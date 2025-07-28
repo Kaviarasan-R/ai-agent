@@ -334,7 +334,6 @@ export class AppService {
     const dates = transactionData
       .map((item) => {
         const content = item[0].pageContent;
-        // Simple date extraction - you might want to improve this based on your data format
         const dateMatch = content.match(
           /\d{4}-\d{2}-\d{2}|\d{2}\/\d{2}\/\d{4}|\d{2}-\d{2}-\d{4}/,
         );
