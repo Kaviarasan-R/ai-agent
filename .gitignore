@@ -1,4 +1,5 @@
 .DS_Store
+.git
 .env
 /dist
 /node_modules
